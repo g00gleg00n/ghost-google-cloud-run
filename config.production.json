@@ -1,7 +1,7 @@
 {
-    "url": "http://localhost:2368/",
+    "url": "http://localhost:8080/",
     "server": {
-        "port": 2368,
+        "port": 8080,
         "host": "0.0.0.0"
     },
     "database": {
