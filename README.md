@@ -37,6 +37,8 @@ database__connection__password  = my-db-pass
 storage__gcs__bucket            = my-google-bucket
 ```
 
+UPDATE:  *For Unix sockets GCP MySQL DB connection => database__connection__socketPath = /cloudsql/$YOUR_GCP_PROJECT_ID:us-central1:$YOUR_MYSQL_INSTANCE_NAME
+
 _Refer to [Ghost Configuration Docs](https://ghost.org/docs/concepts/config/#configuration-options) for more info._
 
 _Note about `url`: With Google Cloud Run, you can map your service to a custom domain. If you know in advance what it'll be, you can already set it. Otherwise, you can set it to your service's URL then restart it._
